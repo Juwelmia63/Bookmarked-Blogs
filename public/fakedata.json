@@ -4,7 +4,7 @@
     "author": "Mr. Raju",
     "date": "Mar 14",
     "publishedAgo": "4 Days ago",
-    "readingTime": "05 min read",
+    "readingTime": "7",
     "title": "How to get your first job as a self-taught programmer",
     "tags": ["#beginners", "#programming"],
     "coverImage": "../src/assets/1.jpg"
@@ -14,7 +14,7 @@
     "author": "Sarah Lee",
     "date": "Mar 10",
     "publishedAgo": "8 Days ago",
-    "readingTime": "07 min read",
+    "readingTime": "9",
     "title": "Top 10 JavaScript tips you must know",
     "tags": ["#javascript", "#webdev"],
     "coverImage": "../src/assets/2.png"
@@ -24,7 +24,7 @@
     "author": "John Doe",
     "date": "Mar 8",
     "publishedAgo": "10 Days ago",
-    "readingTime": "04 min read",
+    "readingTime": "54",
     "title": "Why learning Git is essential for developers",
     "tags": ["#git", "#tools"],
     "coverImage": "../src/assets/3.png"
@@ -34,7 +34,7 @@
     "author": "Emily Brown",
     "date": "Mar 5",
     "publishedAgo": "13 Days ago",
-    "readingTime": "06 min read",
+    "readingTime": "32",
     "title": "How to build responsive websites with Tailwind CSS",
     "tags": ["#tailwind", "#frontend"],
     "coverImage": "../src/assets/4.jpg"

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaBookmark } from "react-icons/fa";
 
-const Blog = ({ blog, handleBookmarks }) => {
+const Blog = ({ blog, handleBookmarks, handleReadingtime }) => {
   const {
     id,
     author,
@@ -38,7 +38,7 @@ const Blog = ({ blog, handleBookmarks }) => {
           </div>
 
           <div className="flex gap-1">
-            <p className="text-black text-xs">{readingTime}</p>
+            <p className="text-black text-xs">{readingTime} min read-time</p>
             <button onClick={() => handleBookmarks(blog)}>
               <FaBookmark className="text-black text-2xl" />
             </button>
@@ -49,9 +49,11 @@ const Blog = ({ blog, handleBookmarks }) => {
 
         <p className="text-slate-500 text-left mt-2">{tags}</p>
 
-        <p className="text-purple-500 text-xs text-left mt-5 underline">
-          Mark as read
-        </p>
+        <button onClick={() => handleReadingtime(readingTime, id)}>
+          <p className="text-purple-500 text-xs text-left mt-5 underline">
+            Mark as read
+          </p>
+        </button>
       </div>
     </div>
   );
