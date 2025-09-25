@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "author": "Mr. Raju",
+    "date": "Mar 14",
+    "publishedAgo": "4 Days ago",
+    "readingTime": "05 min read",
+    "title": "How to get your first job as a self-taught programmer",
+    "tags": ["#beginners", "#programming"],
+    "coverImage": "../src/assets/1.jpg"
+  },
+  {
+    "id": 2,
+    "author": "Sarah Lee",
+    "date": "Mar 10",
+    "publishedAgo": "8 Days ago",
+    "readingTime": "07 min read",
+    "title": "Top 10 JavaScript tips you must know",
+    "tags": ["#javascript", "#webdev"],
+    "coverImage": "../src/assets/2.png"
+  },
+  {
+    "id": 3,
+    "author": "John Doe",
+    "date": "Mar 8",
+    "publishedAgo": "10 Days ago",
+    "readingTime": "04 min read",
+    "title": "Why learning Git is essential for developers",
+    "tags": ["#git", "#tools"],
+    "coverImage": "../src/assets/3.png"
+  },
+  {
+    "id": 4,
+    "author": "Emily Brown",
+    "date": "Mar 5",
+    "publishedAgo": "13 Days ago",
+    "readingTime": "06 min read",
+    "title": "How to build responsive websites with Tailwind CSS",
+    "tags": ["#tailwind", "#frontend"],
+    "coverImage": "../src/assets/4.jpg"
+  }
+]
